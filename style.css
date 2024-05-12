@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'myFirstFont';
+    src: url('assets/fonts/Inter-VariableFont_slnt,wght.ttf')  format('truetype');
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+}
+
+.boxContainer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    height: 550px;
+    width: 350px;
+    background-color:  hsl(0, 0%, 12%);
+    border-radius: 15px;
+
+}
+
+.boxContainer img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.boxContainer h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 24px;
+    font-family: myFirstFont;
+}
+
+.boxContainer h2 {
+    color:  hsl(75, 94%, 57%);
+    font-size: 12px;
+    font-family: myFirstFont;
+}
+
+.boxContainer p {
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+    font-family: myFirstFont;
+}
+
+.boxContainer button {
+    display: block;
+    margin: 5px;
+    width: 275px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    font-family: myFirstFont;
+}
+
+.attribution { 
+    color: white;
+    font-size: 12px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    font-size: 12px; 
+}
