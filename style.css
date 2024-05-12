@@ -58,6 +58,11 @@ body{
     font-family: myFirstFont;
 }
 
+.boxContainer button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+
 .attribution { 
     color: white;
     font-size: 12px; 
